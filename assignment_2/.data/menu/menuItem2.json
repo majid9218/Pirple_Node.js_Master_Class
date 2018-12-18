@@ -1,0 +1,12 @@
+{
+    "id": "menuItem2",
+    "name": "Veggie",
+    "ingredients": "Mozzarella Cheese, Tomato sauce, Tomato, Black Olives, Mushroom and Bell pepper.",
+    "prices": {
+        "small": 3.5,
+        "medium": 5.5,
+        "large": 7,
+        "x-large": 9
+    },
+    "urlImage": "http://pngimg.com/uploads/pizza/pizza_PNG44092.png"
+}

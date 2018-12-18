@@ -1,0 +1,12 @@
+{
+    "id": "menuItem3",
+    "name": "Remix",
+    "ingredients": "Mozzarella Cheese, Tomato sauce, Sausage, Onions, Pickles and Parsley.",
+    "prices": {
+        "small": 3.75,
+        "medium": 5.75,
+        "large": 7.25,
+        "x-large": 9.25
+    },
+    "urlImage": "http://pngimg.com/uploads/pizza/pizza_PNG44073.png"
+}

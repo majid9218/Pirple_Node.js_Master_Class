@@ -1,0 +1,12 @@
+{
+    "id": "menuItem4",
+    "name": "Supreme",
+    "ingredients": "Mozzarella Cheese, Tomato sauce, Smoked Meat, Mushroom, Black Olives, Bell pepper, seasoning and Basil.",
+    "prices": {
+        "small": 4.25,
+        "medium": 6.25,
+        "large": 7.75,
+        "x-large": 9.75
+    },
+    "urlImage": "http://pngimg.com/uploads/pizza/pizza_PNG44077.png"
+}

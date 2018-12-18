@@ -1,0 +1,12 @@
+{
+    "id": "menuItem6",
+    "name": "Coke",
+    "ingredients": "",
+    "prices": {
+        "small": 1,
+        "medium": 1.25,
+        "large": 1.75,
+        "x-large": 2
+    },
+    "urlImage": "http://pngimg.com/uploads/cocacola/cocacola_PNG21.png"
+}

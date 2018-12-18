@@ -1,0 +1,12 @@
+{
+    "id": "menuItem1",
+    "name": "Pepperoni",
+    "ingredients": "Mozzarella Cheese, Tomato sauce and Pepperoni.",
+    "prices": {
+        "small": 3.5,
+        "medium": 5.5,
+        "large": 7,
+        "x-large": 9
+    },
+    "urlImage": "http://pngimg.com/uploads/pizza/pizza_PNG44071.png"
+}

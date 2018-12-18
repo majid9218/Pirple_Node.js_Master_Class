@@ -1,0 +1,12 @@
+{
+    "id": "menuItem7",
+    "name": "Sprite",
+    "ingredients": "",
+    "prices": {
+        "small": 1,
+        "medium": 1.25,
+        "large": 1.75,
+        "x-large": 2
+    },
+    "urlImage": "http://pngimg.com/uploads/sprite/sprite_PNG8924.png"
+}
