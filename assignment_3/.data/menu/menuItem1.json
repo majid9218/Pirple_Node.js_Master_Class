@@ -1,0 +1,12 @@
+{
+    "id": "menuItem1",
+    "name": "Pepperoni",
+    "ingredients": "Mozzarella Cheese, Tomato sauce and Pepperoni.",
+    "prices": {
+        "small": 3.50,
+        "medium": 5.50,
+        "large": 7.00,
+        "x-large": 9.00
+    },
+    "urlImage": "https://i.ibb.co/QCDFzfH/1.png"
+}

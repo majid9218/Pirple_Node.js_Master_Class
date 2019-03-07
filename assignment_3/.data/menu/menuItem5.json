@@ -1,0 +1,12 @@
+{
+    "id": "menuItem5",
+    "name": "Grand",
+    "ingredients": "Mozzarella Cheese, Tomato sauce, Smoked Meat, Tomato, Onions and Cucumber.",
+    "prices": {
+        "small": 4.25,
+        "medium": 6.25,
+        "large": 7.75,
+        "x-large": 9.75
+    },
+    "urlImage": "https://i.ibb.co/56bw949/5.png"
+}

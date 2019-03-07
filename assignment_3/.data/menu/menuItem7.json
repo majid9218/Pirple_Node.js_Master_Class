@@ -1,0 +1,12 @@
+{
+    "id": "menuItem7",
+    "name": "Sprite",
+    "ingredients": "The Coca Cola Company Ingredients.",
+    "prices": {
+        "small": 1.00,
+        "medium": 1.25,
+        "large": 1.75,
+        "x-large": 2.00
+    },
+    "urlImage": "https://i.ibb.co/vXQwPyw/7.png"
+}

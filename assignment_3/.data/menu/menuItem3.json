@@ -1,0 +1,12 @@
+{
+    "id": "menuItem3",
+    "name": "Remix",
+    "ingredients": "Mozzarella Cheese, Tomato sauce, Sausage, Onions, Pickles and Parsley.",
+    "prices": {
+        "small": 3.75,
+        "medium": 5.75,
+        "large": 7.25,
+        "x-large": 9.25
+    },
+    "urlImage": "https://i.ibb.co/MpMF2S0/3.png"
+}
