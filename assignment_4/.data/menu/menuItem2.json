@@ -1,0 +1,12 @@
+{
+    "id": "menuItem2",
+    "name": "Veggie",
+    "ingredients": "Mozzarella Cheese, Tomato sauce, Tomato, Black Olives, Mushroom and Bell pepper.",
+    "prices": {
+        "small": 3.50,
+        "medium": 5.50,
+        "large": 7.00,
+        "x-large": 9.00
+    },
+    "urlImage": "https://i.ibb.co/PjXy2R6/2.png"
+}

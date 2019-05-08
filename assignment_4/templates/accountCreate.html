@@ -1,0 +1,54 @@
+<div class="account_form" style="background-image: url(/public/pizza.jpg);">
+    <h1>Create Your Account</h1>
+    <form id="account_create" action="/api/users" method="POST">
+        <div class="form_wrapper">
+            <div class="error"></div>
+        </div>
+        <div class="form_wrapper">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="John"/>
+        </div>
+        <div class="form_wrapper">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Smith"/>
+        </div>
+        <div class="form_wrapper">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" placeholder="example@mail.com"/>
+        </div>
+        <hr>
+        <div class="form_wrapper">
+            <div class="fullAddress">
+                <div class="address_line">
+                    <label for="addressLine1">Address Line 1</label>
+                    <input type="text" id="addressLine1" name="address" placeholder="Street"/>
+                </div>
+                <div class="address_line">
+                    <label for="addressLine2">Address Line 2</label>
+                    <input type="text" id="addressLine2" name="address" placeholder="Apartment"/>
+                </div>
+                <div class="address_line">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="address" placeholder="City"/>
+                </div>
+                <div class="address_line">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="address" placeholder="State"/>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="form_wrapper">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="**********"/>
+        </div>
+        <hr>
+        <div class="form_wrapper check_box">
+            <input type="checkbox" id="tosAgreement" name="tosAgreement" value="agree"/>
+            <label for="tosAgreement">By clicking this, you agree to our terms and conditions.</label>
+        </div>
+        <div class="form_wrapper">
+            <button class="btn" type="submit">Create Account</button>
+        </div>
+    </form>
+</div>

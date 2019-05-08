@@ -1,0 +1,77 @@
+<div class="account_form accountSettings">
+    <h1>Account Settings</h1>
+    <form id="accountEdit1" action="/api/users" method="PUT">
+        <input type="hidden" name="_method" value="PUT"/>
+        <div class="form_wrapper">
+            <div class="error"></div>
+            <div class="success">Your Changes Have Been Saved</div>
+        </div>
+        <input class="hiddenEmail"  type="hidden" name="email"/>
+        <div class="form_wrapper">
+            <label>email</label>
+            <input type="text" class='emailInput' name="userEmail" disabled />
+        </div>
+        <div class="form_wrapper">
+            <label>First Name</label>
+            <input type="text" class='firstNameInput' name="firstName" placeholder="John"/>
+        </div>
+        <div class="form_wrapper">
+            <label>Last Name</label>
+            <input type="text" class='lastNameInput' name="lastName" placeholder="Smith"/>
+        </div>
+        <hr/>
+        <div class="form_wrapper">
+            <div class="fullAddress">
+                <div class="address_line">
+                    <label>Address Line 1</label>
+                    <input type="text" class='addressLine1' name="address" placeholder="Street"/>
+                </div>
+                <div class="address_line">
+                    <label>Address Line 2</label>
+                    <input type="text" class='addressLine2' name="address" placeholder="Apartment"/>
+                </div>
+                <div class="address_line">
+                    <label>City</label>
+                    <input type="text" class='addressLine3' name="address" placeholder="City"/>
+                </div>
+                <div class="address_line">
+                    <label>State</label>
+                    <input type="text" class='addressLine4' name="address" placeholder="State"/>
+                </div>
+            </div>
+        </div>
+        <div class="form_wrapper">
+            <button class="btn" type="submit">Save Changes</button>
+        </div>
+    </form>
+    <div class="next_form_head">
+        <hr class="hr_shadow"/>
+        <h3>Change Your Password</h3>
+    </div>
+    <form id="accountEdit2" action="/api/users" method="PUT">
+        <input type="hidden" name="_method" value="PUT"/>
+        <div class="error"></div>
+        <div class="success">Your New Password Has Been Saved</div>
+        <input class="hiddenEmail" type="hidden" name="email" />
+        <div class="form_wrapper">
+            <label>Choose a New Password</label>
+            <input type="password" name="password" placeholder="**********" />
+        </div>
+        <div class="form_wrapper">
+            <button class="btn" type="submit">Change Password</button>
+        </div>
+    </form>
+    <div class="next_form_head">
+        <hr class="hr_shadow"/>
+        <h3>Delete Your Account</h3>
+    </div>
+    <form id="accountEdit3" action="/api/users" method="DELETE">
+        <input type="hidden" name="_method" value="DELETE"/>
+        <div class="error"></div>
+        <div class="warning">Warning: This action cannot be undone. Dont click this button on accident!</div>
+        <input class="hiddenEmail" type="hidden" name="email" />
+        <div class="form_wrapper">
+            <button class="btn" type="submit">Delete Account</button>
+        </div>
+    </form>
+</div>

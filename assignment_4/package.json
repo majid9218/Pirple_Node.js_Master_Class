@@ -1,0 +1,15 @@
+{
+  "name": "pizza-delivery-api",
+  "version": "1.0.0",
+  "description": "Pizza delivery fullstack application",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "abdelmajid abdellatif",
+  "license": "MIT"
+}
